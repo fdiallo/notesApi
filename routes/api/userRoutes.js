@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User } = require('../../models');
+const { User } = require("./../../models/User.js")
 const { signToken } = require('../../utils/auth');
  
 // POST /api/users/register - Create a new user
